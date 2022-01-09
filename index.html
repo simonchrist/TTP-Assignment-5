@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Assignment 5</title>
+    </head>
+    <body>
+        <h1>Assignment 5</h1>
+        <h3>Add Row:</h3>
+        <div id="addRowBtn" onClick="addRow()">
+            <button>Add Row</button>
+        </div>
+        <h3>Add Column</h3>
+        <div id="addColumnBtn" onClick="addColumn()">
+            <button>Add Column</button>
+        </div>
+        <h3>Remove Row</h3>
+        <div id="removeRowBtn" onClick="removeRow()">
+            <button>Remove Row</button>
+        </div>
+        <h3>Remove Column</h3>
+        <div id="removeColumnBtn" onClick="removeColumn()">
+            <button>Remove Column</button>
+        </div>
+        <h3>Select Color</h3>
+        <select name="colors" id="select-color" onchange="selectColor(this.value)">
+            <option value="">--Select Color</option>
+            <option class="red" id="red" value="red">Red</option>
+            <option class="blue" id="blue" value="blue">Blue</option>
+            <option class="green" id="green" value="green">Green</option>
+            <option class="yellow" id="yellow" value="yellow">Yellow</option>
+        </select>
+        <h3>Color All Uncolored Cells</h3>
+        <div id="colorAllUncoloredCellsBtn" onClick="colorAllUncoloredCells()">
+            <button>Color All Uncolored Cells</button>
+        </div>
+        <h3>Color All Cells</h3>
+        <div id="colorAllCellsBtn" onClick="colorAllCells()">
+            <button>Color All Cells</button>
+        </div>
+        <h3>Reset Cells</h3>
+        <div id="resetColorOfCellsBtn" onClick="resetColorOfCells()">
+            <button>Reset Cells</button>
+        </div>
+        <table id="table"></table>
+        <script src="script.js"></script>
+    </body>
+</html>
