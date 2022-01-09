@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(129, 190, 243);
+    text-align: center !important;
+    margin: auto !important;
+   }
+   
+   button {
+       border: 1px solid rgb(255, 255, 255);
+       background-color: rgb(255, 254, 254);
+       text-align: center;
+       color: rgb(0, 0, 0);
+       text-align: center !important;
+       margin: auto !important;
+   }
+   
+   #table {
+       border: 12px;
+       background-color: rgb(255, 255, 255);
+       text-align: center;
+       width: 25%;
+   }
+   
+   tr {
+       height: 100px;
+       text-align: center !important;
+       margin: auto !important;
+   }
+   
+   td {
+       border: 2px solid rgb(3, 3, 3);
+       background-color: rgb(255, 255, 255);
+       height: 20px;
+       width: 20px;
+   }
+   
