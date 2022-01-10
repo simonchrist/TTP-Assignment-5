@@ -24,5 +24,5 @@ As a user, I can:
 ●	click and hold (mouseover) from a single cell (start) to a different cell (end) such that all affected/hovered-over cells from start to end change to the currently selected color
 */
 let row= 1;
-let columns = 1;
+let col = 1;
 
