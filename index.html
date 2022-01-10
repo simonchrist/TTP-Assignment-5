@@ -24,8 +24,8 @@
             <button>Remove Column</button>
         </div>
         <h3>Select Color:</h3>
-        <select name="colors" id="select-color" onchange="selectColor(this.value)">
-            <option value="">--Select Color</option>
+        <select name="colors" id="selectcolor" onchange="selectColor(this.value)">
+            <option value="">Select Color</option>
             <option class="blue" id="blue" value="blue">Blue</option>
             <option class="green" id="green" value="green">Green</option>
             <option class="purple" id="purple" value="purple">Purple</option>
@@ -46,7 +46,8 @@
         <div id="resetColorOfCellsBtn" onClick="resetColorOfCells()">
             <button>Reset Cells</button>
         </div>
-        <table id="table"></table>
+        <h2>GRID</h2>
+        <table class="center" id="table"></table>
         <script src="script.js"></script>
     </body>
 </html>
